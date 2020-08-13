@@ -1,0 +1,49 @@
+.list {
+    color: #ffffff;
+    width: 300px;
+    background-color: #66B2FF ;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px; 
+    
+}
+.list p{
+    
+    position: relative;
+    transition: ease-in-out;
+}
+.list  input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.list  input:focus, .list  textarea:focus{
+    outline: none;
+}
+.list textarea {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    width: 300px;
+    height: 200px;
+    
+}
+ 
+.list p span{
+    position: absolute;
+    right: 10px;
+   
+}
+.delet{
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FF9933;
+}
+button:focus {
+    outline: none;
+  }  

@@ -1,0 +1,64 @@
+ body {
+   background-color: #99CCFF;
+ }
+ .App {
+   background-color: #3399FF ;
+ 
+   width: 400px;
+   margin: 40px auto;
+   padding: 10px;
+   border-radius: 10px;
+ }
+ #announcement-form input {
+ 
+   text-align: center;
+   background-color: #66B2FF ;
+   border: 0;
+   width: 350px;
+   height: 30px;
+   padding: 0 20px;
+   margin: 5px;
+   font-size: 18px;
+   border-radius: 10px;
+   color: #ffffff;
+    }
+ #announcement-form input::placeholder{
+   color: rgba(255, 255, 255, 0.5);
+ }
+  #announcement-form input:focus, #announcement-form button:focus {
+    outline: none;
+  }  
+  button {
+   margin-left: 50%;
+    
+   height: 30px;
+   padding: 0 20px;
+   margin: 5px;
+   border-radius: 5px;
+   border: 0;
+   background-color: #FF9933;
+   cursor: pointer;
+   font-weight: bold;
+   color: #ffffff;
+
+
+  }
+  input {
+ 
+ 
+    background-color: #66B2FF ;
+    border: 0;
+    width: 350px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #ffffff;
+     }
+ input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+ input:focus, #announcement-form button:focus {
+     outline: none;
+   }  
